@@ -1,7 +1,7 @@
-## Name of Student**: 
+## Name of Student: 
 Amy Young  
 
-## Name of Project**: 
+## Name of Project: 
 Music Teacher Manager
 
 ## Project's Purpose or Goal: 
