@@ -9,3 +9,6 @@
   - reading calendar documentation for possible integration https://developers.google.com/calendar
   - looking into payment integration possibilities (scrapping for now)
 - 11-11:15pm making some final decisions and cleaning up proposal.
+
+#### Saturday 7/2
+- 2:45pm - researching database structure(undecided on SQL versus NoSQL)
