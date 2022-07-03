@@ -11,4 +11,6 @@
 - 11-11:15pm making some final decisions and cleaning up proposal.
 
 #### Saturday 7/2
-- 2:45pm - researching database structure(undecided on SQL versus NoSQL)
+- 2:45pm-4:45pm - researching database structure(undecided on SQL versus NoSQL)
+- - https://www.softwaretestinghelp.com/sql-vs-nosql/
+- -  researching similar apps for database structure and ui design
