@@ -14,3 +14,6 @@
 - 2:45pm-4:45pm - researching database structure(undecided on SQL versus NoSQL)
 - - https://www.softwaretestinghelp.com/sql-vs-nosql/
 - -  researching similar apps for database structure and ui design
+
+#### Monday 7/4
+- 12:45pm - 2:00pm making ui flowchart

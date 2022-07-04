@@ -14,15 +14,15 @@ List the absolute minimum features the project requires to meet this purpose or 
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-- React
-- Redux
-- NoSQL
+- C#/.Net
+- MySQL
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
 - traffic API to calculate travel time between addresses
 - Could also include lesson notes for students to log in to access
 - google calendar syncing
+- simple invoice generator
 
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 - travel time API: https://developers.google.com/maps/documentation/distance-matrix
