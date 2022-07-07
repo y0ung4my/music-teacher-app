@@ -7,6 +7,11 @@ Music Teacher Manager
 ## Project's Purpose or Goal: 
 A web application that tracks scheduling, billing, and other client information for appointment based services, like music lessons.
 
+### As a user, I should:
+- see each student's name, email, phone number, family relationships, and weekly lesson time slot
+- get the schedule for each student
+- see billing history for each student
+
 List the absolute minimum features the project requires to meet this purpose or goal:
 - **Client Info**: Student Name, Phone, Email, Address, Weekly Lesson time 
 - **Schedule Page**: Shows appointments by client name 
@@ -27,5 +32,6 @@ If you finish developing the minimum viable product (MVP) with time to spare, wh
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 - travel time API: https://developers.google.com/maps/documentation/distance-matrix
 - google calendar integration: https://developers.google.com/calendar
+- https://developers.google.com/calendar/api/quickstart/dotnet
 
 Is there anything else you'd like your instructor to know?
