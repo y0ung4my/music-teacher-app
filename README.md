@@ -18,3 +18,8 @@
 #### Monday 7/4
 - 12:45pm - 2:00pm making ui flowchart
 - 10:00-11:00pm brainstorm & create schema
+
+#### Saturday 7/9
+- 4-5pm finish up schema
+
+
