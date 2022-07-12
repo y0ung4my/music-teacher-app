@@ -22,4 +22,7 @@
 #### Saturday 7/9
 - 4-5pm finish up schema
 
+#### Monday 7/11
+- 7-9:30pm change course and try out as React App
+
 

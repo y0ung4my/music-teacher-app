@@ -19,8 +19,8 @@ List the absolute minimum features the project requires to meet this purpose or 
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
-- C#/.Net
-- MySQL
+- React
+- Database (SQL or NOSQL?)
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 

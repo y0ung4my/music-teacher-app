@@ -1,0 +1,3 @@
+export const ADD_STUDENT = 'ADD_STUDENT';
+export const DELETE_STUDENT = 'DELETE_STUDENT';
+export const TOGGLE_FORM = 'TOGGLE_FORM';
