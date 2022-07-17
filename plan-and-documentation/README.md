@@ -25,4 +25,5 @@
 #### Monday 7/11
 - 7-9:30pm change course and try out as React App
 
-
+#### Sunday 7/17
+- 10am-1pm research google calendar integration
