@@ -27,3 +27,5 @@
 
 #### Sunday 7/17
 - 10am-1pm research google calendar integration
+- https://www.npmjs.com/package/react-google-calendar-api
+- https://dev.to/nouran96/google-calendar-events-with-react-544g
