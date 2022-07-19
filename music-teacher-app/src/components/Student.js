@@ -22,7 +22,7 @@ Student.propTypes = {
   email: PropTypes.string,
   phone: PropTypes.string,
   timeSlot: PropTypes.string,
-  lessonLength: PropTypes.number,
+  lessonLength: PropTypes.string,
   note: PropTypes.string,
   id: PropTypes.string,
   whenStudentClicked: PropTypes.func

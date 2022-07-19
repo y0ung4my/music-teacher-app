@@ -15,6 +15,7 @@ A web application that tracks scheduling, billing, and other client information 
 List the absolute minimum features the project requires to meet this purpose or goal:
 - **Client Info**: Student Name, Phone, Email, Address, Weekly Lesson time 
 - **Schedule Page**: Shows appointments by client name 
+- **Billing Info**: Track whether student has paid tuition each month
 - **UI/UX**: Look decent and be user friendly
 
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.

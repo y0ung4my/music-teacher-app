@@ -22,7 +22,7 @@ function ReusableForm(props) {
           name='timeSlot'
           placeholder='Weekly Lesson Time' />
         <input
-          type='text'
+          type='number'
           name='lessonLength'
           placeholder='Lesson Length (minutes)' />
         <textarea
