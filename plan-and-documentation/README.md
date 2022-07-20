@@ -29,3 +29,6 @@
 - 10am-1pm research google calendar integration
 - https://www.npmjs.com/package/react-google-calendar-api
 - https://dev.to/nouran96/google-calendar-events-with-react-544g
+
+#### Tuesday 7/20
+- 7pm-10pm research firestore data structure options and begin adding billing subcollection

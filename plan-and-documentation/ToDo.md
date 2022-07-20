@@ -16,7 +16,7 @@
 
 
 # Timeline Goals
-- 7/18: figure out firestore with React 18 DONE
+- (DONE) 7/18: figure out firestore with React 18 
 - 7/19: add billing tracking (use sub collection?) Parent accounts?
 - 7/20: continued billing work
 - 7/21-7/23: add simple schedule display (loop through all students for time slot?)
