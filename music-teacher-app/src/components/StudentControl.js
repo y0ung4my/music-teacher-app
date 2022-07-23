@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import * as a from '../actions';
 // a can be a shorthand for actions
-import { withFirestore } from 'react-redux-firebase';
+import { withFirestore, isLoaded } from 'react-redux-firebase';
 
 class StudentControl extends React.Component {
 
@@ -44,10 +44,10 @@ class StudentControl extends React.Component {
       const firestoreStudent = {
         name: student.get("name"),
         email: student.get("email"),
-        phone: student.get("phone.value"),
-        timeSlot: student.get("timeSlot.value"),
-        lessonLength: student.get("lessonLength.value"),
-        note: student.get("note.value"),
+        phone: student.get("phone"),
+        timeSlot: student.get("timeSlot"),
+        lessonLength: student.get("lessonLength"),
+        note: student.get("note"),
         id: student.id
       }
       this.setState({selectedStudent: firestoreStudent });
@@ -55,9 +55,10 @@ class StudentControl extends React.Component {
   }
 
   handleDeletingStudent = (id) => {
-    const { dispatch } = this.props;
-    const action = a.deleteStudent(id);
-    dispatch(action);
+    this.props.firestore.delete({ collection: "students", doc: id });
+    // const { dispatch } = this.props;
+    // const action = a.deleteStudent(id);
+    // dispatch(action);
     this.setState({selectedStudent: null});
   }
 
@@ -65,10 +66,10 @@ class StudentControl extends React.Component {
     this.setState({editing: true});
   }
 
-  handleEditingStudentInList = (studentToEdit) => {
-    const { dispatch } = this.props;
-    const action = a.addStudent(studentToEdit);
-    dispatch(action);
+  handleEditingStudentInList = () => {
+    // const { dispatch } = this.props;
+    // const action = a.addStudent(studentToEdit);
+    // dispatch(action);
     this.setState({
       editing: false,
       selectedStudent: null
