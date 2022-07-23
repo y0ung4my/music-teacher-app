@@ -19,6 +19,6 @@ import firebaseConfig from "./firebaseConfig.js";
 firebase.initializeApp(firebaseConfig);
 
 // Initialize Cloud Firestore and get a reference to the service
-firebase.firestore();
+// firebase.firestore();
 
 export default firebase;
