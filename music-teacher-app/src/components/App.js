@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import StudentControl from "./StudentControl";
+import MainControl from "./MainControl/MainControl";
 
 function App(){
   return ( 
     <React.Fragment>
       <Header />
-      <StudentControl />
+      <MainControl />
     </React.Fragment>
   );
 }

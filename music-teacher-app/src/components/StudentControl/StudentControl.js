@@ -5,7 +5,7 @@ import StudentDetail from './StudentDetail';
 import EditStudentForm from './EditStudentForm';
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
-import * as a from '../actions';
+import * as a from '../../actions';
 // a can be a shorthand for actions
 import { withFirestore, isLoaded } from 'react-redux-firebase';
 

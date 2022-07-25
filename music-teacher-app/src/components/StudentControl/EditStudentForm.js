@@ -1,5 +1,5 @@
 import React from "react";
-import ReusableForm from "./ReusableForm";
+import ReusableForm from "../TransactionControl/ReusableForm";
 import PropTypes from "prop-types";
 import { useFirestore } from "react-redux-firebase";
 

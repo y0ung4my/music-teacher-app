@@ -5,6 +5,11 @@ export const deleteStudent = id => ({
   id
 });
 
+export const deleteTransaction = id => ({
+  type: c.DELETE_TRANSACTION,
+  id
+});
+
 export const toggleForm = () => ({
   type: c.TOGGLE_FORM
 });
@@ -19,6 +24,20 @@ export const addStudent = (student) => {
     id: id,
     timeSlot: timeSlot,
     lessonLength: lessonLength,
+    note: note
+  }
+}
+
+export const addTransaction = (transaction) => {
+  const { month, amountDue, amountPaid, id, lessonCount, studentName, note } = transaction;
+  return {
+    type: c.ADD_TRANSACTION,
+    month: month,
+    amountDue: amountDue,
+    amountPaid: amountPaid,
+    id: id,
+    lessonCount: lessonCount,
+    studentName: studentName,
     note: note
   }
 }
