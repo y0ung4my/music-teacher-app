@@ -32,3 +32,6 @@
 
 #### Tuesday 7/20
 - 7pm-10pm research firestore data structure options and begin adding billing subcollection
+
+#### Monday 7/25
+- 7-8:30pm research React structure to solve component issue
