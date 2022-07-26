@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ReusableForm from "../StudentControl/ReusableForm";
+import ReusableForm from "./ReusableForm";
 import { useFirestore } from 'react-redux-firebase'
 
 function NewStudentForm(props) {

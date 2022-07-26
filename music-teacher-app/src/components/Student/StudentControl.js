@@ -20,6 +20,13 @@ class StudentControl extends React.Component {
     };
   }
 
+  handleMainClick = () => {
+    this.setState({
+      studentControlSelected: null,
+      billingControlSelected: null
+    })
+  }
+
   handleClick = () => {
     if (this.state.selectedStudent != null) {
       this.setState({

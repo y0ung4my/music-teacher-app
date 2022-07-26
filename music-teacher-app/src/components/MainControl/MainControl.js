@@ -2,8 +2,8 @@ import React from 'react';
 import Main from './Main';
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
-import StudentControl from "../StudentControl/StudentControl";
-import TransactionControl from "../TransactionControl/TransactionControl"
+import StudentControl from "../Student/StudentControl";
+import TransactionControl from "../Transaction/TransactionControl"
 import { withFirestore, isLoaded } from 'react-redux-firebase';
 
 class MainControl extends React.Component {
