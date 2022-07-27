@@ -16,9 +16,9 @@ const store = createStore(rootReducer);
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-store.subscribe(() =>
-  console.log(store.getState())
-);
+// store.subscribe(() =>
+//   console.log(store.getState())
+// );
 
 const rrfProps = {
   firebase,

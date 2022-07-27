@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ReusableForm from "./ReusableForm";
+import ReusableTransactionForm from "./ReusableTransactionForm";
 import { useFirestore } from 'react-redux-firebase'
 
 function NewTransactionForm(props) {
@@ -25,7 +25,7 @@ function NewTransactionForm(props) {
 
   return (
     <React.Fragment>
-      <ReusableForm 
+      <ReusableTransactionForm 
         formSubmissionHandler={addTransactionToFirestore}
         buttonText="Submit" />
     </React.Fragment>

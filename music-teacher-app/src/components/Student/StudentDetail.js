@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function StudentDetail(props){
   const { student, onClickingDelete } = props;
 
-  console.log(student);
+  // console.log(student);
   return (
     <React.Fragment>
       <h1>Student Detail</h1>
@@ -14,7 +14,8 @@ function StudentDetail(props){
       <p><em>{student.phone}</em></p>
       <p><em>{student.note}</em></p>
       <button onClick={ props.onClickingEdit }>Update Student</button>
-      <button onClick={()=> onClickingDelete(student.id) }>Delete Student</button>
+      <button onClick={() => onClickingDelete(student.id)}>Delete Student</button>
+      <button onClick={props.handleStudentStateClick}>{props.buttonText}</button>
       <hr/>
     </React.Fragment>
   );

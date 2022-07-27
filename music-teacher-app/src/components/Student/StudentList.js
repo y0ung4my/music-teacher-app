@@ -28,6 +28,8 @@ function StudentList(props) {
             id={student.id}
             key={student.id} />
         })}
+        <button onClick={props.onMainSelection}>Back to Main</button>
+        <button onClick={props.handleStudentStateClick}>{props.buttonText}</button>
       </React.Fragment>
     );
   } else {
@@ -42,7 +44,9 @@ function StudentList(props) {
 
 
 StudentList.propTypes = {
-  onStudentSelection: PropTypes.func
+  onStudentSelection: PropTypes.func,
+  onMainSelection: PropTypes.func,
+  handleStudentStateClick: PropTypes.func
 };
 
 export default StudentList;

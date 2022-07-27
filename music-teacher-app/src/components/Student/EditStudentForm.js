@@ -1,5 +1,5 @@
 import React from "react";
-import ReusableForm from "../Transaction/ReusableForm";
+import ReusableStudentForm from "./ReusableStudentForm";
 import PropTypes from "prop-types";
 import { useFirestore } from "react-redux-firebase";
 
@@ -16,7 +16,7 @@ function EditStudentForm (props) {
 
   return (
     <React.Fragment>
-      <ReusableForm 
+      <ReusableStudentForm 
         formSubmissionHandler={handleEditStudentFormSubmission}
         buttonText="Update Student" />
     </React.Fragment>

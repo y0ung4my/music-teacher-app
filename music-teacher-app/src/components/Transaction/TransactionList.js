@@ -28,6 +28,8 @@ function TransactionList(props) {
             id={transaction.id}
             key={transaction.id} />
         })}
+        <button onClick={props.onMainSelection}>Back to Main</button>
+        <button onClick={props.handleTransactionStateClick}>{props.buttonText}</button>
       </React.Fragment>
     );
   } else {
@@ -42,7 +44,9 @@ function TransactionList(props) {
 
 
 TransactionList.propTypes = {
-  onTransactionSelection: PropTypes.func
+  onMainSelection: PropTypes.func,
+  onTransactionSelection: PropTypes.func,
+  handleTransactionStateClick: PropTypes.func
 };
 
 export default TransactionList;

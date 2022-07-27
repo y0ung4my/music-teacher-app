@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ReusableForm from "./ReusableForm";
+import ReusableStudentForm from "./ReusableStudentForm";
 import { useFirestore } from 'react-redux-firebase'
 
 function NewStudentForm(props) {
@@ -25,7 +25,7 @@ function NewStudentForm(props) {
 
   return (
     <React.Fragment>
-      <ReusableForm 
+      <ReusableStudentForm
         formSubmissionHandler={addStudentToFirestore}
         buttonText="Submit" />
     </React.Fragment>
