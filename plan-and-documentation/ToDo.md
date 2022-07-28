@@ -19,11 +19,12 @@
 - (DONE) 7/18: figure out firestore with React 18 
 - (DONE) 7/19: add billing tracking (use sub collection?) Parent accounts? (took longer than     expected due to errors)
 - (DONE) 7/20: continued billing work
-- 7/27 (was 7/24): add styling - MVP IS DONE
+- (done for now) 7/27 (was 7/24): add styling 
+- 7/27: add google calendar API
 - weekend: (was 7/27): documentation (new visual representations and README)
-- weekend: clean-up styling, refactor, and prepare for presentation
+- weekend: clean-up styling, refactor, and prepare for presentation 
 
 # Now stretch:
 - (move down) 7/21-7/23: add simple schedule display (loop through all students for time slot?)
-- 7/25: add google calendar API
+
 - 7/26: continue refining billing functionality
