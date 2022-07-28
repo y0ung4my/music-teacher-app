@@ -20,11 +20,9 @@
 - (DONE) 7/19: add billing tracking (use sub collection?) Parent accounts? (took longer than     expected due to errors)
 - (DONE) 7/20: continued billing work
 - (done for now) 7/27 (was 7/24): add styling 
-- 7/27: add google calendar API
-- weekend: (was 7/27): documentation (new visual representations and README)
-- weekend: clean-up styling, refactor, and prepare for presentation 
+- (basic page done) 7/27: add google calendar API
 
-# Now stretch:
-- (move down) 7/21-7/23: add simple schedule display (loop through all students for time slot?)
 
-- 7/26: continue refining billing functionality
+- 7/28: finish up working on calendar integration (next, add to Control, and if time, connect with student in firestore)
+- 7/29 (was 7/27): documentation (README) and if time, change MainControl to routing (Student, Billing, Calendar)
+- 7/30: clean up bugs, finish styling, finish documentation, prepare for presentation

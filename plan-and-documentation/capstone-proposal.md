@@ -35,6 +35,7 @@ If you finish developing the minimum viable product (MVP) with time to spare, wh
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 - travel time API: https://developers.google.com/maps/documentation/distance-matrix
 - google calendar integration: https://developers.google.com/calendar
-- https://developers.google.com/calendar/api/quickstart/dotnet
+- https://developers.google.com/calendar/api
+- https://fusebit.io/blog/google-calendar-react/?utm_source=www.google.com&utm_medium=referral&utm_campaign=none
 
 Is there anything else you'd like your instructor to know?
