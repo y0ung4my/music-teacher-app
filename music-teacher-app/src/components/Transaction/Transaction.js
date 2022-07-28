@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 function Transaction(props){
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenTransactionClicked(props.id)}>
-        <h3>{props.month}</h3>
+      <div class="card border-light mb-3" onClick = {() => props.whenTransactionClicked(props.id)}>
+        <h3 class="card-header">{props.month}</h3>
         <p>{props.amountDue}</p>
         <p>{props.amountPaid}</p>
         <p>{props.lessonCount}</p>

@@ -4,7 +4,7 @@ import MainControl from "./MainControl/MainControl";
 
 function App(){
   return ( 
-    <React.Fragment>
+    <React.Fragment> 
       <Header />
       <MainControl />
     </React.Fragment>

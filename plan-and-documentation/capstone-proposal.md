@@ -18,10 +18,12 @@ List the absolute minimum features the project requires to meet this purpose or 
 - **Transaction Info**: Track whether student has paid tuition each month
 - **UI/UX**: Look decent and be user friendly
 
+
 What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
 
 - React
 - Database (SQL or NOSQL?)
+- https://bootswatch.com/quartz/
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 

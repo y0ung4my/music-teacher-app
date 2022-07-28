@@ -6,8 +6,8 @@ function Main(props) {
     return (
       <React.Fragment>
         <hr />
-        <button onClick={props.onStudentControlSelection}>Students</button>
-        <button onClick={props.onTransactionControlSelection }>Transaction</button>
+        <button class="btn btn-secondary"onClick={props.onStudentControlSelection}>Students</button>
+        <button class="btn btn-secondary"onClick={props.onTransactionControlSelection }>Transactions</button>
       </React.Fragment>
     );
   } 

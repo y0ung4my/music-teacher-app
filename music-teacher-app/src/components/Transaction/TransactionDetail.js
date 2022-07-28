@@ -13,9 +13,9 @@ function TransactionDetail(props){
       <p><em>Paid: {transaction.amountPaid}</em></p>
       <p><em>Lessons: {transaction.lessonCount}</em></p>
       <p><em>{transaction.note}</em></p>
-      <button onClick={ props.onClickingEdit }>Update Transaction</button>
-      <button onClick={() => onClickingDelete(transaction.id)}>Delete Transaction</button>
-      <button onClick={props.handleTransactionStateClick}>{props.buttonText}</button>
+      <button class="btn btn-secondary"onClick={ props.onClickingEdit }>Update Transaction</button>
+      <button class="btn btn-secondary"onClick={() => onClickingDelete(transaction.id)}>Delete Transaction</button>
+      <button class="btn btn-secondary"onClick={props.handleTransactionStateClick}>{props.buttonText}</button>
       <hr/>
     </React.Fragment>
   );

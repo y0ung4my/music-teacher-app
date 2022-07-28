@@ -28,8 +28,8 @@ function StudentList(props) {
             id={student.id}
             key={student.id} />
         })}
-        <button onClick={props.onMainSelection}>Back to Main</button>
-        <button onClick={props.handleStudentStateClick}>{props.buttonText}</button>
+        <button class="btn btn-secondary"onClick={props.onMainSelection}>Back to Main</button>
+        <button class="btn btn-secondary"onClick={props.handleStudentStateClick}>{props.buttonText}</button>
       </React.Fragment>
     );
   } else {

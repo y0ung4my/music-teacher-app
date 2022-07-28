@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 function Student(props){
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenStudentClicked(props.id)}>
-        <h3>{props.name}</h3>
+      <div class="card border-light mb-3" onClick = {() => props.whenStudentClicked(props.id)}>
+        <h3 class="card-header">{props.name}</h3>
         <p>{props.email}</p>
         <p>{props.phone}</p>
         <p>{props.timeSlot}</p>

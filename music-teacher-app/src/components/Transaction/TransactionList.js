@@ -19,17 +19,15 @@ function TransactionList(props) {
         {transactions.map((transaction) => {
           return <Transaction
             whenTransactionClicked={props.onTransactionSelection}
-            month={transaction.month}
-            amountDue={transaction.amountDue}
-            amountOwed={transaction.amountOwed}
-            lessonCount={transaction.lessonCount}
             studentName={transaction.studentName}
-            note={transaction.note}
+            month={transaction.month}
+            amountPaid={transaction.amountPaid}
+            lessonCount={transaction.lessonCount}
             id={transaction.id}
             key={transaction.id} />
         })}
-        <button onClick={props.onMainSelection}>Back to Main</button>
-        <button onClick={props.handleTransactionStateClick}>{props.buttonText}</button>
+        <button class="btn btn-secondary"onClick={props.onMainSelection}>Back to Main</button>
+        <button class="btn btn-secondary"onClick={props.handleTransactionStateClick}>{props.buttonText}</button>
       </React.Fragment>
     );
   } else {

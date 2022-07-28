@@ -35,3 +35,7 @@
 
 #### Monday 7/25
 - 7-8:30pm research React structure to solve component issue
+
+#### Wednesday 7/27
+- 6:45pm-7:15pm evaluating to-do and schedule
+- 7:15-8:45pm researching React styling libraries and brainstorm visual design

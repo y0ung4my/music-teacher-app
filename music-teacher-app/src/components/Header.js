@@ -2,7 +2,8 @@ import React from "react";
 
 function Header(){
   return (
-    <h1>Music Teacher Manager</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarColor03" >
+  <h1 class="navbar-brand">Music Teacher Manager</h1></nav>
   );
 }
 
