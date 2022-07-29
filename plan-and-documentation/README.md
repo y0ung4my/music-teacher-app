@@ -40,3 +40,6 @@
 - 6:45pm-7:15pm evaluating to-do and schedule
 - 7:15-8:45pm researching React styling libraries and brainstorm visual design
 - 8:30pm- researching google calendar api implementation
+
+#### Thursday 7/28
+- 10-11:30pm troubleshoot date parsing from RFC3339 in Google Calendar

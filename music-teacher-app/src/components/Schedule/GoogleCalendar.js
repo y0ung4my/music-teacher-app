@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { gapi } from "gapi-script";
-import Event from "./components/Event.js";
+import Event from "./Event.js";
  
 function GoogleCalendar() {
   const [events, setEvents] = useState([]);
@@ -88,16 +88,17 @@ function GoogleCalendar() {
  
   return (
     <div>
-      <h1>
-        React App with Google Calendar API!
+      <h1>Calendar</h1>
         <ul>
           {events?.map((event) => (
-            <li key={event.id}>
-              <Event description={event.summary} />
-            </li>
+            <Event description={event.summary}
+              date={event.date}
+              startTime={event.start.dateTime}
+              endTime={event.end.dateTime}
+              address={event.location}
+              key={event.id} />
           ))}
         </ul>
-      </h1>
     </div>
   );
 }
