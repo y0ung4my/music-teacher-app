@@ -58,27 +58,27 @@ function GoogleCalendar() {
     gapi.load("client", initiate);
   };
 
-  var event = {
-    summary: "Hello World",
-    location: "",
-    start: {
-      dateTime: "2022-08-28T09:00:00-07:00",
-      timeZone: "America/Los_Angeles",
-    },
-    end: {
-      dateTime: "2022-08-28T17:00:00-07:00",
-      timeZone: "America/Los_Angeles",
-    },
-    recurrence: ["RRULE:FREQ=DAILY;COUNT=2"],
-    attendees: [],
-    reminders: {
-      useDefault: false,
-      overrides: [
-        { method: "email", minutes: 24 * 60 },
-        { method: "popup", minutes: 10 },
-      ],
-    },
-  };
+  // var event = {
+  //   summary: "Hello World",
+  //   location: "",
+  //   start: {
+  //     dateTime: "2022-08-28T09:00:00-07:00",
+  //     timeZone: "America/Los_Angeles",
+  //   },
+  //   end: {
+  //     dateTime: "2022-08-28T17:00:00-07:00",
+  //     timeZone: "America/Los_Angeles",
+  //   },
+  //   recurrence: ["RRULE:FREQ=DAILY;COUNT=2"],
+  //   attendees: [],
+  //   reminders: {
+  //     useDefault: false,
+  //     overrides: [
+  //       { method: "email", minutes: 24 * 60 },
+  //       { method: "popup", minutes: 10 },
+  //     ],
+  //   },
+  // };
 
  
   useEffect(() => {
@@ -90,13 +90,14 @@ function GoogleCalendar() {
     <div>
       <h1>Calendar</h1>
         <ul>
-          {events?.map((event) => (
-            <Event description={event.summary}
-              date={event.date}
-              startTime={event.start.dateTime}
-              endTime={event.end.dateTime}
-              address={event.location}
-              key={event.id} />
+        {events?.map((event) => (
+          <Event summary={event.summary}
+            date={new Date(`${event.start.dateTime}`)}
+            startTime={new Date(`${event.start.dateTime}`)}
+            endTime={new Date(`${event.end.dateTime}`)}
+            address={event.location}
+            description={event.description}
+            key={event.id} />
           ))}
         </ul>
     </div>
