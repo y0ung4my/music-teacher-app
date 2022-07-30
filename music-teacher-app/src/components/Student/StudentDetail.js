@@ -15,7 +15,7 @@ function StudentDetail(props){
       <p><em>{student.note}</em></p>
       <button class="btn btn-secondary"onClick={ props.onClickingEdit }>Update Student</button>
       <button class="btn btn-secondary"onClick={() => onClickingDelete(student.id)}>Delete Student</button>
-      <button class="btn btn-secondary"onClick={props.handleStudentStateClick}>{props.buttonText}</button>
+      {/* <button class="btn btn-secondary"onClick={props.handleStudentStateClick}>{props.buttonText}</button> */}
       <hr/>
     </React.Fragment>
   );

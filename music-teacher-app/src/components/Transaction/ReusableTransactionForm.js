@@ -28,7 +28,7 @@ function ReusableTransactionForm(props) {
         <textarea class="form-control"
           name='note'
           placeholder='notes' />
-        <button class="btn btn-secondary"type='submit'>{props.buttonText}</button>
+        {/* <button class="btn btn-secondary"type='submit'>{props.buttonText}</button> */}
       </form>
     </React.Fragment>
   );

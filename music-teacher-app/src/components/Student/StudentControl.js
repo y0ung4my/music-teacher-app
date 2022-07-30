@@ -99,7 +99,7 @@ class StudentControl extends React.Component {
     return (
       <React.Fragment>
         {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button>
+        <button class="btn btn-secondary" onClick={this.handleClick}>{buttonText}</button>
       </React.Fragment>
     );
   }

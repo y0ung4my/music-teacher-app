@@ -26,8 +26,8 @@ function TransactionList(props) {
             id={transaction.id}
             key={transaction.id} />
         })}
-        <button class="btn btn-secondary"onClick={props.onMainSelection}>Back to Main</button>
-        <button class="btn btn-secondary"onClick={props.handleTransactionStateClick}>{props.buttonText}</button>
+        {/* <button class="btn btn-secondary"onClick={props.onMainSelection}>Back to Main</button> */}
+        {/* <button class="btn btn-secondary"onClick={props.handleTransactionStateClick}>{props.buttonText}</button> */}
       </React.Fragment>
     );
   } else {

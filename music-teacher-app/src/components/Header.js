@@ -10,16 +10,16 @@ function Header(){
         <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <p class="nav-link"><Link to="/home">Home</Link></p>
+                <p class="nav-link"><Link className="nav_link" to="/home">Home</Link></p>
             </li>
             <li class="nav-item">
-              <p class="nav-link"><Link to="/calendar">Calendar</Link></p>
+              <p class="nav-link"><Link className="nav_link" to="/calendar">Calendar</Link></p>
             </li>
             <li class="nav-item">
-              <p class="nav-link"><Link to="/students">Students</Link></p>
+              <p class="nav-link"><Link className="nav_link" to="/students">Students</Link></p>
             </li>
             <li class="nav-item">
-              <p class="nav-link"><Link to="/billing">Billing</Link></p>
+                <p class="nav-link"><Link className="nav_link" to="/billing">Billing</Link></p>
             </li>  
           </ul>
         </div>
