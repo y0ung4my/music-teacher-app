@@ -10,12 +10,8 @@ export const deleteTransaction = id => ({
   id
 });
 
-export const toggleStudentForm = () => ({
-  type: c.TOGGLE_STUDENT_FORM
-});
-
-export const toggleTransactionForm = () => ({
-  type: c.TOGGLE_TRANSACTION_FORM
+export const toggleForm = () => ({
+  type: c.TOGGLE_FORM
 });
 
 export const addStudent = (student) => {

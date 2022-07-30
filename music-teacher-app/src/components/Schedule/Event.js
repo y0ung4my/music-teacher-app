@@ -7,9 +7,7 @@ function Event({ startTime, endTime, description, address }) {
       <div class="card-header">{description}</div>
       <div class="card-body">
         <h4 class="card-title">{startTime} - {endTime}</h4>
-        <p>Location:</p>
         <p>{address}</p>
-        {/* <p>{address}</p> */}
       </div>
     </div>
   );

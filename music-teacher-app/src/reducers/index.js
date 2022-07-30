@@ -1,15 +1,13 @@
-import studentFormVisibleReducer from './student-form-visible-reducer.js';
-import transactionFormVisibleReducer from './student-form-visible-reducer.js';
+import formVisibleReducer from './form-visible-reducer';
 import studentListReducer from './student-list-reducer';
-import transactionListReducer from './transaction-list-reducer';
+import TransactionListReducer from './transaction-list-reducer';
 import { combineReducers } from 'redux';
 import { firestoreReducer } from 'redux-firestore';
 
 const rootReducer = combineReducers({
-  // studentFormVisibleOnPage: studentFormVisibleReducer,
-  // transactionFormVisibleOnPage: transactionFormVisibleReducer,
+  formVisibleOnPage: formVisibleReducer,
   mainStudentList: studentListReducer,
-  mainTransactionList: transactionListReducer,
+  mainTransactionList: TransactionListReducer,
   firestore: firestoreReducer
 });
 

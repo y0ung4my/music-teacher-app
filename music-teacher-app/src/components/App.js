@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
-import MainControl from "./MainControl/MainControl";
+import Home from "./Home/Home";
+import StudentControl from "./Student/StudentControl";
+import TransactionControl from "./Transaction/TransactionControl";
 import GoogleCalendar from "./Schedule/GoogleCalendar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -9,8 +11,10 @@ function App(){
     <Router>
       <Header />
       <Routes>
-        <Route path="/main" element={<MainControl/>} />   
-        <Route path="/calendar" element={<GoogleCalendar/>} />
+        <Route path="/home" element={<Home/>} />   
+        <Route path="/calendar" element={<GoogleCalendar />} />
+        <Route path="/students" element={<StudentControl />} />
+        <Route path="/billing" element={<TransactionControl/>} />
       </Routes>
     </Router>
   );
