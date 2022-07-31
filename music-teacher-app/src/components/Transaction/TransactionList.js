@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Transaction from "./Transaction";
 import { useSelector } from 'react-redux'
 import { useFirestoreConnect, isLoaded, isEmpty } from 'react-redux-firebase'
+// import { orderBy } from "firebase/firestore";
 
 function TransactionList(props) {
   
@@ -26,8 +27,6 @@ function TransactionList(props) {
             id={transaction.id}
             key={transaction.id} />
         })}
-        {/* <button class="btn btn-secondary"onClick={props.onMainSelection}>Back to Main</button> */}
-        {/* <button class="btn btn-secondary"onClick={props.handleTransactionStateClick}>{props.buttonText}</button> */}
       </React.Fragment>
     );
   } else {

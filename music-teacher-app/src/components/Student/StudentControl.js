@@ -12,10 +12,10 @@ class StudentControl extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log(props); // CONSOLE LOG
+    // console.log(props); 
     this.state = {
       selectedStudent: null,
-      editing: false
+      editing: false,
     };
   }
 

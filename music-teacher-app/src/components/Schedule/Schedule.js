@@ -39,7 +39,7 @@ function Schedule() {
  
   return (
     <div>
-      <h1>Calendar</h1>
+      <h1>Schedule</h1>
       <ul>
         {events?.map((event) => (
           <Event summary={event.summary}

@@ -12,7 +12,7 @@ class TransactionControl extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log(props); // CONSOLE LOG
+    // console.log(props);
     this.state = {
       selectedTransaction: null,
       editing: false

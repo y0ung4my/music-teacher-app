@@ -6,7 +6,7 @@ function Header(){
     <React.Fragment>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <h2 class="navbar-brand" href="#">Music Teacher App</h2>
+          <h2 class="navbar-brand" href="#">Music Teacher Manager</h2>
         <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">

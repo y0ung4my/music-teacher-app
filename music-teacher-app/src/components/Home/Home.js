@@ -6,7 +6,8 @@ function Home() {
     return (
       <React.Fragment>
         <hr />
-        <h4>Welcome to the Music Teacher Manager App</h4>
+        <h4>Welcome to the Music Teacher Manager</h4>
+        <p>Select a tab to get started</p>
       </React.Fragment>
     );
   }

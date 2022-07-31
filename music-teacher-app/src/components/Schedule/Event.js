@@ -1,5 +1,4 @@
 import React from "react";
-// import Date from "datejs";
  
 function Event({ startTime, endTime, summary, address, date, description }) {
   return (
