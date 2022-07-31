@@ -4,17 +4,18 @@ import Home from "./Home/Home";
 import StudentControl from "./Student/StudentControl";
 import TransactionControl from "./Transaction/TransactionControl";
 import GoogleCalendar from "./Schedule/GoogleCalendar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 function App(){
   return ( 
     <Router>
       <Header />
       <Routes>
-        <Route path="/home" element={<Home/>} />   
+        <Route path="/home" element={<Home />} />   
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/calendar" element={<GoogleCalendar />} />
         <Route path="/students" element={<StudentControl />} />
-        <Route path="/billing" element={<TransactionControl/>} />
+        <Route path="/billing" element={<TransactionControl />} />
       </Routes>
     </Router>
   );

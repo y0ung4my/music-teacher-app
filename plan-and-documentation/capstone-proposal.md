@@ -23,6 +23,7 @@ What tools, frameworks, libraries, APIs, modules and/or other resources (whateve
 
 - React
 - React Redux
+- React-Router-DOM
 - React Routing
 - Google Firestore
 - Google Calendar Api
