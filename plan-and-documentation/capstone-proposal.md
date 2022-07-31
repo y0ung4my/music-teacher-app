@@ -24,9 +24,8 @@ What tools, frameworks, libraries, APIs, modules and/or other resources (whateve
 - React
 - React Redux
 - React Routing
-- Database (SQL or NOSQL?)
-- https://bootswatch.com/quartz/
-- Date.js
+- Google Firestore
+- Google Calendar Api
 
 If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
@@ -37,8 +36,5 @@ If you finish developing the minimum viable product (MVP) with time to spare, wh
 
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 - travel time API: https://developers.google.com/maps/documentation/distance-matrix
-- google calendar integration: https://developers.google.com/calendar
-- https://developers.google.com/calendar/api
-- https://fusebit.io/blog/google-calendar-react/?utm_source=www.google.com&utm_medium=referral&utm_campaign=none
-
-Is there anything else you'd like your instructor to know?
+- google calendar integration: https://developers.google.com/calendar/api
+- add user login and ability to sync user's own google calendar
