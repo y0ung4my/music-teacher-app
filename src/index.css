@@ -26,9 +26,10 @@ body {
 	text-align: center;
 } */
 
-/* #card {
-  max-width: 20rem;
-} */
+#card {
+  max-width: 60%;
+  margin: auto
+}
 
 .nav_link {
  color: black;

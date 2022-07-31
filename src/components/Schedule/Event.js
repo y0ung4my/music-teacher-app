@@ -8,7 +8,7 @@ function Event({ startTime, endTime, summary, address, date, description }) {
         <h4 class="card-title">{summary}</h4>
         <p>{startTime.toLocaleTimeString()} - {endTime.toLocaleTimeString()}</p>
         <p>{address}</p>
-      <hr/>
+        <hr />
         <p>{description}</p>
       </div>
     </div>
