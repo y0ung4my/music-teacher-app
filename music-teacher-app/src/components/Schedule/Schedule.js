@@ -21,7 +21,7 @@ function Schedule() {
         })
         .then(
           (response) => {
-            let events = response.result.items;
+            let events = response.result.items.sort((a, b) => (a.start.dateTime > b.start.dateTime ? 1 : -1));
             setEvents(events);
           },
           function (err) {
@@ -40,7 +40,7 @@ function Schedule() {
   return (
     <div>
       <h1>Calendar</h1>
-        <ul>
+      <ul>
         {events?.map((event) => (
           <Event summary={event.summary}
             date={new Date(`${event.start.dateTime}`)}
@@ -49,7 +49,7 @@ function Schedule() {
             address={event.location}
             description={event.description}
             key={event.id} />
-          ))}
+        ))}
         </ul>
     </div>
   );
