@@ -6,7 +6,6 @@ import EditTransactionForm from './EditTransactionForm';
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import * as a from '../../actions';
-// a can be a shorthand for actions
 import { withFirestore, isLoaded } from 'react-redux-firebase';
 
 class TransactionControl extends React.Component {
@@ -93,7 +92,7 @@ class TransactionControl extends React.Component {
       currentlyVisibleState = <NewTransactionForm onNewTransactionCreation={this.handleAddingNewTransactionToList}  />;
       buttonText = "Return to Transaction List";
     } else {
-      currentlyVisibleState = <TransactionList transactionList={this.props.mainTransactionList} onTransactionSelection={this.handleChangingSelectedTransaction} />;
+      currentlyVisibleState = <TransactionList onTransactionSelection={this.handleChangingSelectedTransaction} />;
       buttonText = "Add Transaction";
     }
     return (
@@ -107,13 +106,11 @@ class TransactionControl extends React.Component {
 }
 
 TransactionControl.propTypes = {
-  mainTransactionList: PropTypes.object,
   formVisibleOnPage: PropTypes.bool
 };
 
 const mapStateToProps = state => {
   return {
-    mainTransactionList: state.mainTransactionList,
     formVisibleOnPage: state.formVisibleOnPage
   }
 }

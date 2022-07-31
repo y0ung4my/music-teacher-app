@@ -6,7 +6,6 @@ import EditStudentForm from './EditStudentForm';
 import { connect } from 'react-redux';
 import PropTypes from "prop-types";
 import * as a from '../../actions';
-// a can be a shorthand for actions
 import { withFirestore, isLoaded } from 'react-redux-firebase';
 
 class StudentControl extends React.Component {
@@ -93,7 +92,7 @@ class StudentControl extends React.Component {
       currentlyVisibleState = <NewStudentForm onNewStudentCreation={this.handleAddingNewStudentToList}  />;
       buttonText = "Return to Student List";
     } else {
-      currentlyVisibleState = <StudentList studentList={this.props.mainStudentList} onStudentSelection={this.handleChangingSelectedStudent} />;
+      currentlyVisibleState = <StudentList onStudentSelection={this.handleChangingSelectedStudent} />;
       buttonText = "Add Student";
     }
     return (
@@ -107,13 +106,11 @@ class StudentControl extends React.Component {
 }
 
 StudentControl.propTypes = {
-  mainStudentList: PropTypes.object,
   formVisibleOnPage: PropTypes.bool
 };
 
 const mapStateToProps = state => {
   return {
-    mainStudentList: state.mainStudentList,
     formVisibleOnPage: state.formVisibleOnPage
   }
 }
