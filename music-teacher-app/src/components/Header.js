@@ -13,14 +13,14 @@ function Header(){
                 <p class="nav-link"><Link className="nav_link" to="/home">Home</Link></p>
             </li>
             <li class="nav-item">
-              <p class="nav-link"><Link className="nav_link" to="/schedule">Schedule</Link></p>
-            </li>
-            <li class="nav-item">
               <p class="nav-link"><Link className="nav_link" to="/students">Students</Link></p>
             </li>
             <li class="nav-item">
                 <p class="nav-link"><Link className="nav_link" to="/billing">Billing</Link></p>
             </li>  
+            <li class="nav-item">
+              <p class="nav-link"><Link className="nav_link" to="/schedule">Schedule</Link></p>
+            </li>
           </ul>
         </div>
       </div>
